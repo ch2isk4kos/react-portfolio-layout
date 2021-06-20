@@ -87,3 +87,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// move nav-items to right side of navbar: https://www.youtube.com/watch?v=ecuQnWfCc5o
