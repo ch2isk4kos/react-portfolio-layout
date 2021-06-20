@@ -17,15 +17,20 @@ body {
 }
 /* navbar items */
 .navbar .navbar-nav {
-  margin-right: 4rem;
+  margin-right: 5rem;
 }
 .navbar .navbar-nav a.nav-link {
   margin: 0 0.4rem;
+  border-top: 0.1875rem solid #0e6efd;
   font-weight: 500;
   letter-spacing: 0.04rem;
   text-transform: uppercase;
   cursor: pointer;
 }
 .navbar .navbar-nav a.nav-link:hover {
+  color: white;
+}
+.navbar .navbar-nav a.nav-link:focus {
+  border-top: 0.1875rem solid white;
   color: white;
 }
