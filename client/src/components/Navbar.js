@@ -22,6 +22,7 @@ const Navbar = () => {
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          style={{ color: "white" }}
         >
           {/* <span className="navbar-toggler-icon"></span> */}
           <FontAwesomeIcon icon={faBars} />
